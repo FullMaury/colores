@@ -1,0 +1,74 @@
+div{
+    width: 250px;
+    height: 250px;
+    background-color: aqua;
+}
+p{
+    color: black;
+    font-size: 5rem;
+}
+.caja{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(100, 0, 10)
+}
+
+.otraCaja{
+    width: 150px;
+    height: 150px;
+    background-color: rgba(0, 0, 250, 0.5   );
+
+}
+
+.cajita{
+    width: 150px;
+    height: 150px;
+    background-color: green;
+}
+
+.cajitaCuatro{
+    width: 150px;
+    height: 150px;
+    background-color: hsl(0, 100%, 50%);
+}
+
+*{
+    color: green;
+    font-weight: bolder;
+}
+
+#soyUnico{
+    width: 250px;
+    height: 50px;
+    color: aqua;
+
+}
+
+a[tittle]{
+    color: blueviolet;
+}
+
+button:hover{
+    background-color: purple;
+    color: green;
+}
+input:disabled{
+    background-color: black;
+}
+p::first-line{
+    color: green;
+}
+p::first-letter{
+    color: red;
+    font-size: 150px;
+}
+
+.capibara1, .capibara2, .capibara3{
+    width: 100px;
+    height: 100px;
+    background-color: violet;
+}
+
+.padre p{
+    color: red;
+}
