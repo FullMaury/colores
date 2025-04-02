@@ -1,4 +1,4 @@
-div{
+/*div{
     width: 250px;
     height: 250px;
     background-color: aqua;
@@ -71,4 +71,58 @@ p::first-letter{
 
 .padre p{
     color: red;
+}
+*/
+
+p#unico.foo.bar.baz{
+    color: red!important;
+}
+
+p#unico.foo.bar{
+    color: green;
+}
+
+.main{
+    color: rebeccapurple;
+    border: 2px solid white;
+    padding: 1em;
+}
+.special{
+    color: red;
+    font-weight: bold;
+}
+.rectangulo{
+    width: 450px;
+    height: 250px;
+    background-color: blue;
+}
+.caja{
+    width: 50%;
+    height: 250px;
+    background-color: rgb(15, 125, 90);
+
+}
+.cajaInterior{
+    width: 50%;
+    height: 50%;
+    background-color: blueviolet;
+}
+.cajaInterior p{
+    font-size: 4rem;
+}
+
+.hola{
+    background-color: red;
+    padding-top: 25px;
+    padding: 25px;
+    border-left: 12px solid green;
+    border-right: 12px solid green;
+    border-top: 12px solid green;
+    border-bottom: 12px solid green;
+    border: 12px solid yellow;
+    width: 250px;
+    height: 250px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 25px;
 }
